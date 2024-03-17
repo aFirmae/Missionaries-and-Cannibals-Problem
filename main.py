@@ -21,7 +21,7 @@ def main():
 
     if(s.solve(solve_method)):
         
-        # Display SOlution on console
+        # Display Solution on console
         s.show_solution()
 
         output_file_name = f"{solve_method}"
