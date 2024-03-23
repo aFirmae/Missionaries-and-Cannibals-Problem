@@ -1,4 +1,3 @@
-# Author: Bishal Sarang
 """ 
     Main solver program that implements bfs, dfs and drawing utilities to draw graphs.
 """

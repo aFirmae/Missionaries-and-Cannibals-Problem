@@ -1,4 +1,3 @@
-# Author: Bishal Sarang
 """ 
     Driver Program to handle command line arguments and  create Solution object
 """
