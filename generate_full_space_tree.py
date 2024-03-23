@@ -7,7 +7,7 @@ import argparse
 import os
 
 # Set it to bin folder of graphviz
-os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
+os.environ["PATH"] += os.pathsep + 'C:\Program Files\Graphviz\bin'
 
 options = [(1, 0), (0, 1), (1, 1), (0, 2), (2, 0)]
 Parent = dict()
@@ -17,7 +17,7 @@ graph = pydot.Dot(graph_type='graph',strict=False, bgcolor="#fff3af", label="fig
 i = 0
 
 arg = argparse.ArgumentParser()
-arg.add_argument("-d", "--depth", required=False, help="MAximum depth upto which you want to generate Space State Tree")
+arg.add_argument("-d", "--depth", required=False, help="Maximum depth upto which you want to generate Space State Tree")
 
 args = vars(arg.parse_args())
 
