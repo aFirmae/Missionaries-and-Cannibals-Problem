@@ -1,4 +1,3 @@
-# Author: Bishal Sarang
 """ 
     Program to genrate complete state space tree upto certain depth level
 """
