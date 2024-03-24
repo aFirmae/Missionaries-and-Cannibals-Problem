@@ -7,7 +7,7 @@ import argparse
 import os
 
 # Set it to bin folder of graphviz
-os.environ["PATH"] += os.pathsep + 'C:\Program Files\Graphviz\bin'
+os.environ["PATH"] += os.pathsep + '/usr/local/bin/dot'
 
 options = [(1, 0), (0, 1), (1, 1), (0, 2), (2, 0)]
 Parent = dict()
